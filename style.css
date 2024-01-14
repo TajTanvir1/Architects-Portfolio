@@ -9,14 +9,41 @@
     padding: 0;
 }
 
+/* shared styles */
+
+.heading-texts {
+    color: #131313;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.content-texts {
+    color: #727272;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.primary-btn {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 8px;
+    background: #FF900E;
+    margin-top: 50px;
+}
+
 /* Header styles */
 
 .header-section {
     /* width: 100%; */
     max-width: 1920px;
-    height: 1322px;
+    /* height: 1322px; */
     background-color: rgba(255, 144, 14, 0.10);
-    padding: 50px 240px;
+    padding: 50px 180px;
 }
 
 .header-section nav {
@@ -27,19 +54,97 @@
 .g3-architec-text {
     color: #131313;
     text-align: center;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 700;
     line-height: normal;
 }
 
 .nav-btns {
     display: flex;
+    align-items: center;
+    color: #424242;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .nav-btns>li {
     list-style: none;
     margin-right: 30px;
+}
+
+.nav-btns>li a {
     color: #424242;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
 }
+
+.banner-container {
+    text-align: center;
+    margin: 100px;
+}
+
+.banner-title {
+    margin-bottom: 10px;
+}
+
+.banner-img {
+    width: 100%;
+    max-width: 1440px;
+    margin-top: 70px;
+}
+
+.banner-content {}
+
+.banner-img img {
+    width: 100%;
+}
+
+/* Main section styles */
+main {
+    width: 85%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Team section styles */
+
+.team-container {
+    display: flex;
+    align-items: center;
+    margin-top: 85px;
+}
+
+.team-imgs {
+    width: 100%;
+    /* max-width: 750px; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.img-1, .img-2, .img-3, .img-4{
+    width: 100%;
+}
+
+.team-content{
+    margin-left: 70px;
+    text-align: left;
+    width: 550px;
+}
+
+.quick-list {
+    color: #727272;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.features-text {
+    color: #FF900E;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.team-content-text{
+    margin-top: 24px;
+}
+
