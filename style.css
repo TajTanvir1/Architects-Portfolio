@@ -17,6 +17,23 @@
     font-weight: 700;
 }
 
+.secondary-headings {
+    color: #131313;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 5px;
+    margin-bottom: 8px;
+    margin-top: 25px;
+}
+
+.secondary-content-texts {
+    width: 480px;
+    color: #727272;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
 .content-texts {
     color: #727272;
     font-size: 14px;
@@ -122,11 +139,14 @@ main {
     gap: 20px;
 }
 
-.img-1, .img-2, .img-3, .img-4{
+.img-1,
+.img-2,
+.img-3,
+.img-4 {
     width: 100%;
 }
 
-.team-content{
+.team-content {
     margin-left: 70px;
     text-align: left;
     width: 550px;
@@ -144,7 +164,65 @@ main {
     font-weight: 700;
 }
 
-.team-content-text{
+.team-content-text {
     margin-top: 24px;
 }
 
+/* Features styles */
+
+.features-container {
+    display: flex;
+    margin-top: 130px;
+}
+
+.features-contents {
+    margin-right: 60px;
+}
+
+.feature-title {
+    padding: 15px;
+    border-left: 5px solid #FF900E;
+    height: 90px;
+    margin: 20px 0;
+}
+
+.feature-content-text {
+    width: 550px;
+    margin-bottom: 40px;
+}
+
+
+
+.features-img {
+    width: 100%;
+    max-width: 708px;
+}
+
+.feature-img {
+    width: 100%;
+}
+
+.experience-btn{
+    position: relative;
+    left: 490px;
+    bottom: 220px;
+}
+
+.experience-btn > button {
+    width: 340px;
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 40px;
+    padding: 26px 28px;
+    border-radius: 8px;
+    background: #FF900E;
+    border: none;
+}
+
+.year-btn {
+    color: #FFF;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+}
